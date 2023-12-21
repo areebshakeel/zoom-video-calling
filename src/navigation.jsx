@@ -7,7 +7,7 @@ export const MainStackNavigator = () => {
     const Stack = createNativeStackNavigator();
     return (
         <Stack.Navigator
-            initialRouteName={"IntroScreen"}
+            initialRouteName={"CallScreen"}
             screenOptions={{
                 headerShown: false
             }}>
